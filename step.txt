@@ -1,3 +1,17 @@
 ui design: https://dribbble.com/shots/22738915-Coffee-Ordering-App-UI?utm_source=Clipboard_Shot&utm_campaign=itsrakib_rk&utm_content=Coffee%20Ordering%20App%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=itsrakib_rk&utm_content=Coffee%20Ordering%20App%20UI&utm_medium=Social_Share
 
 1. npx create-expo-app coffeeworld
+
+https://coolors.co/image-picker
+--dark-spring-green: #00704Aff;
+--white: #FFFFFFff;
+--white-smoke: #F4F4F4ff;
+--davys-gray: #565050ff;
+--seal-brown: #54220Fff;
+--jet: #2B2B2Bff;
+--white-smoke-2: #F6F5F5ff;
+--chamoisee: #8E7154ff
+
+images:
+    https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_640.jpg
+    https://cdn.pixabay.com/photo/2022/12/07/04/07/espresso-7640210_640.jpg
