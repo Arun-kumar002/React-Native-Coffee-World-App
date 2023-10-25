@@ -1,6 +1,5 @@
 ui design: https://dribbble.com/shots/22738915-Coffee-Ordering-App-UI?utm_source=Clipboard_Shot&utm_campaign=itsrakib_rk&utm_content=Coffee%20Ordering%20App%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=itsrakib_rk&utm_content=Coffee%20Ordering%20App%20UI&utm_medium=Social_Share
 
-1. npx create-expo-app coffeeworld
 
 https://coolors.co/image-picker
 --dark-spring-green: #00704Aff;
@@ -15,3 +14,22 @@ https://coolors.co/image-picker
 images:
     https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_640.jpg
     https://cdn.pixabay.com/photo/2022/12/07/04/07/espresso-7640210_640.jpg
+
+/*create app*/
+1. npx create-expo-app coffeeworld
+
+/*Screen navigation*/
+2.npm i @react-navigation/native
+
+3.npm i @react-navigation/native-stack
+
+/*Tailwind Config*/
+npm i tailwindcss -D
+yarn tailwindcss init
+npm i --dev tailwindcss@3.3.2
+npm i tailwindcss-react-native
+
+tailwind.Config.js give paths to components
+babel.Config.js add tailwind plugin
+
+
