@@ -2,14 +2,26 @@ import { View, Text, SafeAreaView, Image } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native';
 import { coffee } from '../assets';
+import asyncStorage from '@react-native-async-storage/async-storage';
+import { useSelector } from "react-redux"
 
 const Home = () => {
     const navigate = useNavigation();
-
+    const user = useSelector(state => state.user);
+    console.log(user)
+    const getKey = async () => {
+        try {
+            const value = await asyncStorage.getItem('token');
+            console.log(value)
+        } catch (error) {
+            console.log("Error:[getKey]", error)
+        }
+    }
     useLayoutEffect(() => {
         navigate.setOptions({
             headerShown: false
         })
+        getKey().then()
     }, []);
     return (
         <SafeAreaView className="bg-white flex-1">

@@ -33,3 +33,28 @@ tailwind.Config.js give paths to components
 babel.Config.js add tailwind plugin
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+For Local Storage
+# Using npm
+npm install @react-native-async-storage/async-storage
+
+# Using yarn
+yarn add @react-native-async-storage/async-storage
+
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+await AsyncStorage.setItem('key', 'value');
+const value = await AsyncStorage.getItem('key');
+await AsyncStorage.removeItem('key');
